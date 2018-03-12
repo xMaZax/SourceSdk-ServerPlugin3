@@ -1,0 +1,93 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+Interfaces/Protobuf/pax_global_header
+Interfaces/Protobuf/protobuf-2.5.0.tar
+Interfaces/Protobuf/protobuf-2.5.0/Makefile
+Interfaces/Protobuf/protobuf-2.5.0/compile
+Interfaces/Protobuf/protobuf-2.5.0/configure
+Interfaces/Protobuf/protobuf-2.5.0/depcomp
+Interfaces/Protobuf/protobuf-2.5.0/gtest/
+Interfaces/Protobuf/protobuf-2.5.0/install-sh
+Interfaces/Protobuf/protobuf-2.5.0/libtool
+Interfaces/Protobuf/protobuf-2.5.0/missing
+Interfaces/Protobuf/protobuf-2.5.0/src/
+Interfaces/Protobuf/protobuf-2.5.0/stamp-h1
+Interfaces/Protobuf/protobuf-2.5.0/test-driver
+
