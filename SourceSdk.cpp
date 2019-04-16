@@ -1955,18 +1955,18 @@ namespace SourceSdk
 			{
 				if (m_game == SourceSdk::CounterStrikeGlobalOffensive)
 				{
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 16, GetPlayerUserid);
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 17, GetPlayerNetworkIDString);
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 20, GetEntityCount);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 17, GetPlayerUserid);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 18, GetPlayerNetworkIDString);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 21, GetEntityCount);
 					// Index of edict
 					// PEntityOfEntIndex
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 21, GetPlayerNetInfo);
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 37, ServerCommand);
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 38, ServerExecute);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 22, GetPlayerNetInfo);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 38, ServerCommand);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 39, ServerExecute);
 					// UserMessageBegin
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 44, MessageEnd);
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 45, SendUserMessage);
-					INIT_VIRTUAL_FUNCTION(m_engineserver, 72, LogPrint);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 45, MessageEnd);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 46, SendUserMessage);
+					INIT_VIRTUAL_FUNCTION(m_engineserver, 73, LogPrint);
 					break;
 				}
 				// For other games, the interface v23 is retrocompatible until v21
